@@ -168,8 +168,8 @@
 
 // Marauder Mini
 #define TFT_CS   5  // Chip select control pin D8
-#define TFT_DC   23  // Data Command control pin
-#define TFT_RST  18  // Reset pin (could connect to NodeMCU RST, see next line)
+#define TFT_DC   14  // Data Command control pin
+#define TFT_RST  12  // Reset pin (could connect to NodeMCU RST, see next line)
 #define TOUCH_CS 10
 //#define TFT_MISO 19
 #define TFT_MOSI 15
