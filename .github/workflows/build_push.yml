@@ -1,6 +1,9 @@
 name: Build and Push
 
 on:
+  push:
+    branches:
+      - 'me/**'
   workflow_dispatch:
   pull_request:
     types: [opened, reopened]
